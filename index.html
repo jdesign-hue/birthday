@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday cutie 💖</title>
+<style>
+body {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 150px;
+  font-size: 50px;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px white; }
+  to { text-shadow: 0 0 30px yellow; }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #ff4b5c;
+  cursor: pointer;
+}
+
+#message {
+  display: none;
+  margin-top: 20px;
+  font-size: 22px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday puchkuu🎉</h1>
+
+<button onclick="showMessage()">Click for Surprise</button>
+
+<div id="message">
+You deserve the whole universe today and everyday.I wish you smile everyday the way you are smiling right now🌙✨
+</div>
+
+<script>
+function showMessage() {
+  document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+</html>
